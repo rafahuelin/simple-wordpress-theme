@@ -70,3 +70,8 @@ article.post a.button {
     color: #fff;
     padding: 5px;
 }
+
+.post-thumbnail {
+    width: 100%;
+    height: auto;
+}

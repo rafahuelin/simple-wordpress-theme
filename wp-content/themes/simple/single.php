@@ -11,6 +11,11 @@
                         <div class="meta">
                             Created By <?php the_author(); ?> on <?php  the_time('F j, Y g:i a'); ?>
                         </div>
+                        <?php if(has_post_thumbnail()) : ?>
+                            <div class="post-thumbnail">
+                                <?php the_post_thumbnail(); ?>
+                            </div>
+                        <?php endif; ?>
                         <?php the_content(); ?>
                     </article>
                 <?php endwhile ?>
