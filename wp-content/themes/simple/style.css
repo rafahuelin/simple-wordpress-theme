@@ -39,8 +39,19 @@ header h1 {
     overflow: auto;
 }
 
-main {
+.clr {
+    clear: both;
+}
+
+.main {
     margin: 15px 0;
+    float: left;
+    width: 68%;
+}
+
+.sidebar {
+    float: right;
+    width: 28%;
 }
 
 footer {
