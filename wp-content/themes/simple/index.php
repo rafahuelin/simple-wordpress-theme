@@ -1,18 +1,4 @@
-<!doctype html>
-<html <?php language_attributes(); ?>>
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <title><?php bloginfo('name'); ?></title>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-    <?php wp_head(); ?>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1><?php bloginfo('title'); ?></h1>
-            <span><?php bloginfo('description'); ?></span>
-        </div>
-    </header>
+<?php get_header(); ?>
 
     <div class="main">
         <div class="container">
@@ -30,12 +16,4 @@
         </div>
     </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; <?php the_date('Y'); ?> &mdash; <?php bloginfo('name'); ?></p>
-        </div>
-    </footer>
-
-    <?php wp_footer(); ?>
-</body>
-</html>
+<?php get_footer(); ?>
