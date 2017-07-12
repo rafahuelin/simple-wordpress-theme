@@ -82,6 +82,10 @@ article.post a.button {
     padding: 5px;
 }
 
+.meta a {
+    color: #fff;
+}
+
 .post-thumbnail {
     width: 100%;
     height: auto;
